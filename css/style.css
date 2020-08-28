@@ -1,0 +1,16 @@
+.container nav.desk {
+  width: 100%;
+  background: #364a4b;
+  height: 60px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav.desk ul {
+  list-style: none;
+  width: 75%;
+  height: 60px;
+  margin: 0 auto;
+}
