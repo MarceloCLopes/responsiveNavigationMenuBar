@@ -14,3 +14,26 @@ nav.desk ul {
   height: 60px;
   margin: 0 auto;
 }
+
+nav.desk ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+nav.desk ul li:hover {
+  background: #a3ada5;
+}
+
+nav.desk ul li.active {
+  background: #a3ada5;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
